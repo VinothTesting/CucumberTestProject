@@ -1,5 +1,5 @@
 
-Feature: Book Return Test Feature File
+Feature: Book Return Test Feature File for practice
          Verifying the Successful return of book to library by a student.
 @selenium
 Scenario: Return the book back which is issued to student and check whether that book quantity is added in Available Books Page.

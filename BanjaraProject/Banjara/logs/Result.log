@@ -1,0 +1,14 @@
+2017-07-17 18:11:21,697 - BaseTest - INFO - Framework started 
+2017-07-17 18:11:21,729 - BaseTest - INFO - browser is firefox-searching for geeko driver 
+2017-07-17 18:11:21,735 - BaseTest - INFO - launching firefox browser 
+2017-07-17 18:11:27,171 - BaseTest - INFO - Entering application Url 
+2017-07-17 18:11:28,824 - BaseTest - INFO - Librarian logging in 
+2017-07-17 18:11:35,673 - BookIssueTest - INFO - Book issue to Student-Feature 
+2017-07-17 18:11:44,088 - BookIssueTest - INFO - Searching Book using Book-id 
+2017-07-17 18:11:50,621 - BookIssueTest - INFO - Entering student Id to issue the Book to student 
+2017-07-17 18:12:02,351 - BookIssueTest - INFO - Book issue successful 
+2017-07-17 18:12:02,360 - BookIssueTest - INFO - Checking whether the issued book is updated in Non available books 
+2017-07-17 18:12:08,898 - BookIssueTest - INFO - Issued Book Details is  updated in Non-Available books Detailspage 
+2017-07-17 18:12:13,144 - BookIssueTest - INFO - Book quantity successfully updated in Available books page after book issue 
+2017-07-17 18:12:18,148 - BookIssueTest - INFO - Book Issue Test Succesful 
+2017-07-17 18:12:23,387 - BaseTest - INFO - Framework Ended 

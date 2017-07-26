@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Parallel test Suite]">
+  <parameter name="browser" value="firefox"/>
+  <test name="TestFirefox(failed)">
+    <classes>
+      <class name="com.banjara_principal.scripts.Student_Details_Test">
+        <methods>
+          <include name="test_Student_Details"/>
+          <include name="postcondition"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.banjara_principal.scripts.Student_Details_Test -->
+    </classes>
+  </test> <!-- TestFirefox(failed) -->
+</suite> <!-- Failed suite [Parallel test Suite] -->

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Parallel test Suite" duration-ms="61962" started-at="2017-07-17T12:41:21Z" finished-at="2017-07-17T12:42:23Z">
+    <groups>
+    </groups>
+    <test name="TestFirefox" duration-ms="61962" started-at="2017-07-17T12:41:21Z" finished-at="2017-07-17T12:42:23Z">
+      <class name="com.banjara_library.scripts.BookIssueTest">
+        <test-method status="PASS" signature="startMsg()[pri:0, instance:com.banjara_library.scripts.BookIssueTest@2d8f65a4]" name="startMsg" is-config="true" duration-ms="118" started-at="2017-07-17T18:11:21Z" finished-at="2017-07-17T18:11:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startMsg -->
+        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:com.banjara_library.scripts.BookIssueTest@2d8f65a4]" name="login" is-config="true" duration-ms="13929" started-at="2017-07-17T18:11:21Z" finished-at="2017-07-17T18:11:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="TestBookIssue()[pri:0, instance:com.banjara_library.scripts.BookIssueTest@2d8f65a4]" name="TestBookIssue" duration-ms="47491" started-at="2017-07-17T18:11:35Z" finished-at="2017-07-17T18:12:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestBookIssue -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.banjara_library.scripts.BookIssueTest@2d8f65a4]" name="logout" is-config="true" duration-ms="236" started-at="2017-07-17T18:12:23Z" finished-at="2017-07-17T18:12:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.banjara_library.scripts.BookIssueTest@2d8f65a4]" name="close" is-config="true" duration-ms="163" started-at="2017-07-17T18:12:23Z" finished-at="2017-07-17T18:12:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.banjara_library.scripts.BookIssueTest -->
+    </test> <!-- TestFirefox -->
+  </suite> <!-- Parallel test Suite -->
+</testng-results>

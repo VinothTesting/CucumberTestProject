@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel test Suite" parallel="none">
+      <parameter name="browser" value="firefox"/>
+  <test name="TestFirefox">
+
+    <classes>
+       
+              
+              <class name="com.banjara_library.scripts.BookIssueTest"/>
+              
+       
+    </classes>
+    
+  </test> 
+
+</suite> 
